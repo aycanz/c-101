@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// kendisi haric pozitif tam bölenlerin toplami kendisine eşit olan sayilara mük sayi denir.
+// kendisi haric pozitif tam bÃ¶lenlerin toplami kendisine esit olan sayilara mÃ¼kemmel sayi denir.
 
  int muksayi(int sayi){
  	int i,topla=0;
@@ -16,14 +16,14 @@
 
 int main(){
 	int sayi,sonuc;
-	printf("bir sayi girin");
+	printf("bir sayi girin :");
 	scanf("%d",&sayi);
 	sonuc=muksayi(sayi);
 	if(sonuc==1)
-	printf("muk");
+	printf("girilen sayi mÃ¼kemmel sayidir.");
 	
 	else 
-	printf("muk degil");
+	printf("girilen sayi mÃ¼kemmel sayi degildir.");
 	
 	return 0;
 }
